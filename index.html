@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="pfp">
+                <img src="pfp1.jpg" alt="Christine Ateeq" onclick="openImage(this)">
+            </div>
+            <div id="image1" class="image" onclick="closeImage()">
+                <img id="modal" class="content">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" id="aboutLink">ABOUT</a></li>
+                    <li><a href="#experience" id="experienceLink">EXPERIENCE</a></li>
+                    <li><a href="#education" id="educationLink">EDUCATION</a></li>
+                    <li><a href="#skills" id="skillsLink">SKILLS</a></li>
+                    <li><a href="#interests" id="interestsLink">INTERESTS</a></li>
+                    <li><a href="#awards" id="awardsLink">AWARDS</a></li>
+                    <li><a href="#contact" id="contactLink">CONTACT</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main">
+            <section id="about">
+                <h1>CHRISTINE <span>ATEEQ</span></h1>
+                <p class="inf">Bethlehem <b>.</b> Al Maslakh <b>.</b> (+972) 592449221 <b>.</b>
+                    <span>202201683@bethlehem.edu</span>
+                </p>
+                <p class="description">
+                    My name is Christine Ateeq, I am 19 years old, I am a
+                    software engineering student at Bethlehem University,
+                    I am at my third year, and I will graduate next year.
+                    I hope I will be a great software engineer that works at a
+                    really good company. I alsosing so I hope I will also have
+                    a career in singing too.
+                </p>
+                <div class="Sicons">
+                    <a href="https://www.facebook.com/christeen.ateek?mibextid=JRoKGi" target="_blank"><i
+                            class="fa-brands fa-facebook-f fa-2xl" style="color: #ffffff;"></i></a>
+                    <a href="https://www.instagram.com/christeenateek/profilecard/?igsh=cTNpa29tcGRjZWZi"
+                        target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com/in/christine-ateeq-653413338?trk=contact-info" target="_blank"><i
+                            class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="https://github.com/Christine-Ateeq" target="_blank"><i class="fa-brands fa-github fa-lg"
+                            style="color: #ffffff;"></i></a>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h1>EXPERIENCE</h1>
+                <div class="experienceItem">
+                    <div class="experienceHeader">
+                        <h3>STUDENT</h3>
+                        <span class="date">Experience September 2022 - November 2024</span>
+                    </div>
+                    <p class="company">BETHLEHEM UNIVERSITY</p>
+                    <p class="description">
+                        I joined many competition like the IEEE competition, and
+                        got the third place at the whole university. Further more, I did
+                        lots of projects during my studying years, For example: a
+                        restaurant application, a dashboard web page, etc.
+                    </p>
+                </div>
+                <div class="experienceItem">
+                    <div class="experienceHeader">
+                        <h3>SINGER</h3>
+                    </div>
+                    <p class="description">
+                        Me and my friend both sing so we started our own social media
+                        accounts and started posting on the accounts. Also, I went
+                        to lots of concerts and I joined the coral when I was younger.
+                    </p>
+                </div>
+            </section>
+
+            <section id="education">
+                <h1>EDUCATION</h1>
+                <div class="experienceItem">
+                    <div class="experienceHeader">
+                        <h3>BETHLEHEM UNIVERSITY</h3>
+                        <span class="date">September 2022 - June 2026</span>
+                    </div>
+                    <p class="Uni">BACHELOR OF SCIENCE IN SOFTWARE ENGINEERING</p>
+                    <p class="description">
+                        Software Engineering<br>
+                        GPA: Last Semester: 3.50 | Major: 3.67 | Cum. Earned: 3.48
+                    </p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h1>SKILLS</h1>
+                <div class="skills1">
+                    <p class="Wf">PROGRAMMING LANGUAGES & TOOLS</p>
+                    <div class="interestDescription">
+                        <h4>
+                            <pre>JS   HTML    CSS     Java</pre>
+                        </h4><br>
+                    </div>
+                </div>
+                <div class="work">
+                    <p class="Wf">WORKFLOW</p>
+                    <ul class="workFlow">
+                        <li>Mobile-First, Responsive Design</li>
+                        <li>Cross Browser Testing & Debugging</li>
+                        <li>Cross Functional Teams</li>
+                        <li>Agile Development & Scrum</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="interests">
+                <h1>INTERESTS</h1>
+                <div class="interestsItem">
+                    <p class="interestDescription">
+                        I’m really passionate about software engineering, singing,
+                        and painting. I love the problem-solving and innovation that
+                        comes with software engineering. It’s amazing to create
+                        something functional and impactful from scratch. At the same
+                        time, singing and painting let me express myself creatively,
+                        giving me a way to unwind and connect with emotions. I feel
+                        like having both technical and artistic interests helps me
+                        stay balanced and think outside the box in everything I do.
+                    </p>
+                </div>
+            </section>
+
+            <section id="awards">
+                <h1>Awards & Certifications</h1>
+                <div class="awardss">
+                    <ul>
+                        <li><i class="fas fa-trophy"></i> IEEEXtreme 18.0 Competition Certificate</li>
+                        <li><i class="fas fa-trophy"></i> Certificate of Award (Dean's List)</li>
+                        <li><i class="fas fa-trophy"></i> course in NEURO LINGUISTIC PROGRAMMING Stage 1 Certificate
+                        </li>
+                        <li><i class="fas fa-trophy"></i>شهادة دراسة قائد صغير </li>
+                        <li><i class="fas fa-trophy"></i> Toefel Junior Certificate</li>
+                        <li><i class="fas fa-trophy"></i> Certificate of General Secondary Educatuion Year 2022
+                            Certificate</li>
+                        <li><i class="fas fa-trophy"></i> شهادة تفوّق</li>
+                    </ul>
+                </div>
+                <div class="certificateImg">
+                    <ul>
+                        <li><img src="IEEE.jpg" alt="IEEEXtreme 18.0 competition Certificate"></li>
+                        <li><img src="Dean's List.jpg" alt="Certificate of Award (Dean's List)"></li>
+                        <li><img src="Neuro.jpg" alt="course in NEURO LINGUISTIC PROGRAMMING Stage 1 Certificate"></li>
+                        <li><img src="leadership.jpg" alt="شهادة دراسة قائد صغير "></li>
+                        <li><img src="tafawoq.jpg" alt="شهادة تفوّق"></li>
+                        <li><img src="2022.jpg" alt="Certificate of General Secondary Educatuion Year 2022 Certificate">
+                        </li>
+                        <li><img src="Toefel.jpg" alt="Toefel Junior Certificate"></li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h1>CONTACT</h1>
+                <div class="contact-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </section>
+            
+
+            <script src="script.js"></script>
+</body>
+
+</html>
